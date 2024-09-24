@@ -10,10 +10,32 @@
         android:id="@+id/result_text_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Loading..."
+        android:text="Loading...1"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/result_text_second_gson_src"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/result_text_second_gson_src"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading...2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/result_text_second_gson"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/result_text_second" />
+
+    <TextView
+        android:id="@+id/result_text_second_gson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading...3"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/result_text_second_gson_src" />
 </androidx.constraintlayout.widget.ConstraintLayout>

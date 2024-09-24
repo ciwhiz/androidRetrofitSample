@@ -1,6 +1,7 @@
 package com.sho.testproguard.repository;
 
 import com.sho.testproguard.model.Post;
+import com.sho.testproguard.model.Post2;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
